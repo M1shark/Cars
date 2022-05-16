@@ -1,0 +1,64 @@
+.process{
+    padding: 100px 0;
+    background: #fff;
+    &-title{
+        font-weight: 900;
+        font-size: 148px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 50px;
+        @media(max-width: 992px){
+            font-size: 70px;
+        }
+        @media(max-width: 470px){
+            font-size: 45px;
+        }
+    }
+    &-sub__title{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 150%;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+        @media(max-width: 992px){
+            font-size: 30px;
+        }
+        @media(max-width: 470px){
+            font-size: 20px;
+        }
+    }
+    &-cards{
+        display: flex;
+        gap: 21px;
+        justify-content: center;
+        margin-top: 90px;
+        @media(max-width: 992px){
+            flex-wrap: wrap;
+        }
+        &__body{
+            width: 386px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+            padding: 31px 24px 26px 30px;
+            &-step{
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 150%;
+                letter-spacing: 0.15em;
+                text-transform: uppercase;
+                color: #000000;
+                margin-bottom: 15px;
+            }
+            &-info{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                color: #B7B7B7;
+            }
+        }
+    }
+}
